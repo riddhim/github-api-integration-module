@@ -1,0 +1,13 @@
+Setting Git configurations on ubuntu:
+
+git config --global user.name "username"
+git config --global user.password "token"
+
+check: git config --list
+
+Issues encountered while executing the script:
+
+riddhi@LAPTOP-DTUDNPVD:~/github-api-integration-module$ ./github-api-integration-module.sh $password /org/
+usage: ./github-api-integration-module.sh [your github token] [REST expression]
+
+-->As token in git config was stored as user.password
